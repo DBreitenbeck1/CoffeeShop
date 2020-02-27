@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+div{
+	padding:10px;
+}
+
+.menu{
+	
+
+}
+
+.menu td{
+	
+	padding-right:10px;
+ 	border: 2px solid black;
+	
+}
+
+.fav{
+	
+	float:left;
+	position:absolute;
+	left: 400px;
+	bottom:100px;
+  
+	
+}
+
+.banner h2{
+	text-align: left;
+	padding-left: 40px;
+	
+}
+.foot a{
+	position:absolute;
+	right:50px;
+}
+
+
