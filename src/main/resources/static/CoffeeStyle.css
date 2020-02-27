@@ -2,6 +2,20 @@
 
 body{
 	padding-left:5px;
+	background-image: url('images/Coffee3.jpeg');
+	
+	backgroud-size: cover;
+	color: white;
+}
+
+a{
+	color: lightblue;
+	background-color: black;
+	
+}
+
+table{
+	color: black;
 }
 
 
@@ -11,13 +25,37 @@ div{
 	
 }
 
+.lab{
+	font-size: 20px;
+	color: orange;
+	text-shadow: 2px 2px 10px black;
+}
+
+.men{
+	font-size: 30px;
+	
+	text-decoration-line: underline;
+	color: orange;
+	text-shadow: 2px 2px 10px black;
+	
+}
+
 .reg{
 	padding-bottom:30px;
+	color: orange;
+	text-shadow: 2px 2px 10px black;
+	
+	
+}
+
+
+.frontpage{
+	color: white;
 }
 
 .menu{
 	width: 50%;
-	
+	background-color: white;
 	
 
 }
@@ -45,6 +83,10 @@ div{
 	padding-left: 40px;
 	
 }
+
+.banner{
+	background-color:grey;
+}
 .foot a{
 	
 	
@@ -55,3 +97,10 @@ div{
 	background-color: black;
 }
 
+.navbar{
+	background-color:grey;
+}
+
+.nav-link{
+	background-color:grey;
+}

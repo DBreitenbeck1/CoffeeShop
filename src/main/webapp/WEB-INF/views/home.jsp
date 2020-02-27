@@ -14,38 +14,37 @@
 <link rel="stylesheet" href="/CoffeeStyle.css" />
 </head>
 <body>
-	
-<%@ include file="partials/header.jsp" %>
 
-	
-	<div>
-		
+	<%@ include file="partials/header.jsp"%>
 
-	
-	</div>
+
+	<div></div>
 
 
 	<div class="fav">
-	<p>Your Favorite:</p>
+		<p>Your Favorite:</p>
 		<table class="menu">
-		<tr>
-		<th>Name</th>
-		<th>Price</th>
-		</tr>
-		<tr>
-		<td>${favName }</td>
-		<td><fmt:formatNumber value="${favPrice }"
-							pattern="0.00" /></td></td>
-		</tr>
+			<tr>
+				<th>Name</th>
+				<th>Price</th>
+			</tr>
+			<tr>
+				<td>${favName }</td>
+				<td><fmt:formatNumber value="${favPrice }" pattern="0.00" /></td>
+				</td>
+			</tr>
 		</table>
-	
-		<form action="/clear" method ="post"><button type="submit">Clear</button></form>
+
+		<form action="/clear" method="post">
+			<button type="submit">Clear</button>
+		</form>
 	</div>
-	
+
 
 
 	<div>
-	<h5>Please Peruse our Tasty Menu</h5>
+
+		<h4 class="men">Please Peruse our Tasty Menu</h4>
 		<table class="menu">
 			<tr>
 				<th>Item</th>
@@ -57,27 +56,27 @@
 					<td>${ product.name}</td>
 					<td>$<fmt:formatNumber value="${product.price }"
 							pattern="0.00" /></td>
-					<td><form action="/fav?id=${product.id }" method="post"><button type="submit">favorite</button> </form></td>
+					<td><form action="/fav?id=${product.id }" method="post">
+							<button type="submit">favorite</button>
+						</form></td>
 				</tr>
-			
+
 
 			</c:forEach>
 		</table>
-		
-	</div>
-	<div class="search">
-			<h4>Looking For Something Specific?</h4>
-			<form action="/search"><button type="submit">Search</button></form>
-			
-			</div>
-	
-	<div class ="reg" >
-	<h4>Like What you See? Register as a Regular Customer</h4>
-	<form action="/register"><button type="submit">Sign Up Here</button></form>
-		
-	</div>
-	
 
-<%@ include file="partials/footer.jsp" %>
+	</div>
+
+
+	<div class="reg">
+		<h4>Like What you See? Register as a Regular Customer</h4>
+		<form action="/register">
+			<button type="submit">Sign Up Here</button>
+		</form>
+
+	</div>
+
+
+	<%@ include file="partials/footer.jsp"%>
 </body>
 </html>

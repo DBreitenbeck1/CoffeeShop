@@ -5,11 +5,16 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+	integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+	crossorigin="anonymous">
+<link rel="stylesheet" href="/CoffeeStyle.css" />
 </head>
 <body>
 <h2>Welcome! Enter Your Information Below</h2>
 
-<div>
+<div class="lab">
 <form action ="/isReg" method="post"> 
 <p> <label>First Name:</label> <input type ="text" name ="First_Name"/></p>
 <p> <label>Last Name:</label> <input type ="text" name = "Last_Name"/></p>
