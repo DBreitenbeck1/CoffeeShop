@@ -81,26 +81,41 @@ div{
 .banner h2{
 	text-align: left;
 	padding-left: 40px;
-	
 }
 
 .banner{
 	background-color:grey;
+	
 }
 .foot a{
 	
-	
+	background-color: grey;
 	padding-bottom:10px;
 }
 
 .foot{
-	background-color: black;
+	background-color: grey;
 }
 
 .navbar{
 	background-color:grey;
+	padding-right:10px;
 }
 
 .nav-link{
 	background-color:grey;
+	
+}
+.nav-item{
+	font-size: 20px;
+	padding-right:30px;
+	
+}
+
+.search{
+	font-size: 15px;
+	position: absolute;
+	right:30px;
+	
+	
 }

@@ -10,10 +10,10 @@
 		<a href="/register" class ="nav-link">Register</a>
 		</li>
 		
-		<li class="nav-item">
-		<form action="/nameSearch"> <input type="text" name="name"> 
-		<button type="submit">Search the Menu</button></form>
-		</li>
+	
 	</ul>
+	
+	<form action="/nameSearch" class="search"> <input type="text" name="name"> 
+		<button type="submit">Search the Menu</button></form>
 </nav>
 </header>
