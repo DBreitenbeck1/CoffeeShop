@@ -63,14 +63,15 @@
 
 			</c:forEach>
 		</table>
-		<div>
+		
+	</div>
+	<div class="search">
 			<h4>Looking For Something Specific?</h4>
 			<form action="/search"><button type="submit">Search</button></form>
 			
 			</div>
-	</div>
 	
-	<div >
+	<div class ="reg" >
 	<h4>Like What you See? Register as a Regular Customer</h4>
 	<form action="/register"><button type="submit">Sign Up Here</button></form>
 		

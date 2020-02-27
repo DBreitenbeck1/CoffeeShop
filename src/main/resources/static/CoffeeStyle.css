@@ -1,10 +1,23 @@
 @charset "UTF-8";
 
+body{
+	padding-left:5px;
+}
+
+
 div{
-	padding:10px;
+	padding-top:30px;
+	padding-left:30px;
+	
+}
+
+.reg{
+	padding-bottom:30px;
 }
 
 .menu{
+	width: 50%;
+	
 	
 
 }
@@ -12,7 +25,7 @@ div{
 .menu td{
 	
 	padding-right:10px;
- 	border: 2px solid black;
+ 	border-bottom: 2px solid black;
 	
 }
 
@@ -20,8 +33,9 @@ div{
 	
 	float:left;
 	position:absolute;
-	left: 400px;
+	right: 100px;
 	bottom:100px;
+	width: 40%;
   
 	
 }
@@ -32,8 +46,12 @@ div{
 	
 }
 .foot a{
-	position:absolute;
-	right:50px;
+	
+	
+	padding-bottom:10px;
 }
 
+.foot{
+	background-color: black;
+}
 

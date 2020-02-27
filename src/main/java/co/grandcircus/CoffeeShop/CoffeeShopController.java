@@ -36,17 +36,6 @@ public class CoffeeShopController {
 	private CustomerRepository custRep;
 	
 	
-//	public ModelAndView showSession(@SessionAttribute(name = "preferences", 
-//			required= false) UserPreferences userPref ) {
-//				ModelAndView mav = new ModelAndView("sessions");
-//				if(userPref !=null) {
-//					mav.addObject("theme", userPref.getTheme());
-//				}
-//				UserPreferences pref = (UserPreferences) sesh.getAttribute("userPref");
-//				mav.addObject("name", pref.getName());
-//				mav.addObject("sessionID", sesh.getId());
-//				return mav;	
-	
 	
 	@RequestMapping("/")
 	public ModelAndView home(@SessionAttribute(name="preferences", required=false)
@@ -58,6 +47,12 @@ public class CoffeeShopController {
 		}
 		mav.addObject("products", productRep.findAll());
 		entry="";
+		return mav;
+	}
+	
+	@RequestMapping("/register")
+	public ModelAndView register() {
+		ModelAndView mav=new ModelAndView("custRegister");
 		return mav;
 	}
 
